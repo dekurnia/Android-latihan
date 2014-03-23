@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:gravity="top">
+  
+ <LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<TextView
+android:layout_width = "wrap_content"
+android:layout_height= "wrap_content"
+ 
+android:text = "Masukan Nama Anda"/>
+
+<EditText
+    android:id="@+id/txtnama"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tanggal Lahir" />
+
+<EditText
+    android:id="@+id/dateTgl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10">
+</EditText>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Alamat" />
+
+<EditText
+    android:id="@+id/txtalamat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPostalAddress" />
+
+<TextView
+android:id = "@+id/output"
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:layout_gravity = "center"
+android:text = ""
+/>
+
+<Button
+    android:id="@+id/ok"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="hasil"
+    android:text="OK" />
+
+
+<TextView
+android:id = "@+id/namasow"
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:layout_gravity = "center"
+android:text = ""
+/>
+
+<TextView
+android:id = "@+id/tglsow"
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:layout_gravity = "center"
+android:text = ""
+/>
+
+<TextView
+android:id = "@+id/alamatsow"
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:layout_gravity = "center"
+android:text = ""
+/>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dede Kurnia" />
+</LinearLayout>
+
+    </LinearLayout> 
+
+</LinearLayout>
